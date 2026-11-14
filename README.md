@@ -93,6 +93,10 @@ The dataset is relatively small (~660 images), which makes training fast and sui
 | YOLOv8s  | 0.590  | 0.187     | **0.792** | 0.495  |
 | YOLOv11n | 0.553  | 0.186     | 0.587 | 0.507  |
 
+![Metrics Comparison](comparison_metrics.png)
+![Inference Speed](comparison_speed.png)
+![Accuracy vs Speed](comparison_overview.png)
+
 **Summary:**
 - **YOLOv8n** achieved the best overall mAP and recall → recommended as the main model
 - **YOLOv8s** obtained the highest precision (fewer false positives)
